@@ -102,13 +102,39 @@ The feedback collected after allocation will be used as historical data for eval
 hostel-room-allocation/
 │
 ├── frontend/
-│   └── React application
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── hooks/
+│   │   └── App.jsx
+│   │
+│   ├── package.json
+│   └── README.md
 │
 ├── backend/
-│   └── Node.js + Express API
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── routes/
+│   │   ├── models/
+│   │   ├── services/
+│   │   ├── middleware/
+│   │   ├── config/
+│   │   └── app.js
+│   │
+│   ├── package.json
+│   └── README.md
 │
 ├── ml-service/
-│   └── Python + FastAPI service
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── routes/
+│   │   ├── models/
+│   │   ├── services/
+│   │   └── utils/
+│   │
+│   ├── requirements.txt
+│   └── README.md
 │
 ├── database/
 │   ├── schema/
@@ -120,7 +146,8 @@ hostel-room-allocation/
 │   └── ml-approach.md
 │
 ├── .gitignore
-└── README.md
+├── README.md
+└── docker-compose.yml
 ```
 
 ---
