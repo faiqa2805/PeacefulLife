@@ -148,8 +148,6 @@ hostel-room-allocation/
 ├── .gitignore
 ├── README.md
 └── docker-compose.yml
-```
-
 ---
 
 ## 🛠️ Tech Stack
